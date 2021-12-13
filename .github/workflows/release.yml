@@ -2,7 +2,7 @@ name: SemanticRelease
 on:
   push:
     branches:
-      - master
+      - ma/npm-build
 jobs:
   release:
     name: Release

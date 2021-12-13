@@ -5,7 +5,7 @@ name: AutomatedTests
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ ma/npm-build ]
 
 jobs:
   node-test:
