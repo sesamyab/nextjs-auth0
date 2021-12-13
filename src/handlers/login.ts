@@ -103,6 +103,11 @@ export interface LoginOptions {
    *  Generate a unique state value for use during login transactions.
    */
   getLoginState?: GetLoginState;
+
+  /**
+   *  The name of a social identity provider configured to your application
+   */
+  connection?: string;
 }
 
 /**
