@@ -23,8 +23,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGE_READ_TOKEN }}
       # - name: Lint
       #   run: yarn lint
-      - name: Test
-        run: yarn test
+      # - name: Test
+      #   run: yarn test
       - name: Release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
